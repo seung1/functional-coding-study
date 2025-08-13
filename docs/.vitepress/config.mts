@@ -5,6 +5,9 @@ export default defineConfig({
   title: "Functional Coding",
   description: "『함수형 코딩』 을 공부하고 정리한 학습 기록 (2025년 8월~)",
   lastUpdated: true,
+  sitemap: {
+    hostname: "https://functional-coding-study.wonhub.dev",
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -32,10 +35,6 @@ export default defineConfig({
     },
     lastUpdated: {
       text: "마지막 업데이트",
-    },
-
-    sitemap: {
-      hostname: "https://functional-coding-study.wonhub.dev",
     },
 
     sidebar: [
