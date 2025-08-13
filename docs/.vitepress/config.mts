@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Functional Coding",
-  description: "『함수형 코딩』 을 공부하고 정리한 학습 기록 (2025년 8월~)",
+  description: "『함수형 코딩』 을 공부하고 정리한 학습 노트 (2025년 8월~)",
   lastUpdated: true,
   sitemap: {
     hostname: "https://functional-coding-study.wonhub.dev",

@@ -5,7 +5,7 @@ layout: home
 hero:
   name: Functional<br/>Coding Study
   text: ""
-  tagline: 『함수형 코딩』 을 공부하고 정리한 학습 기록 (2025년 8월~)
+  tagline: 『함수형 코딩』 을 공부하고 정리한 학습 노트 (2025년 8월~)
   image:
     loading: eager
     fetchpriority: high
