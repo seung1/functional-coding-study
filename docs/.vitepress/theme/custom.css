@@ -4,3 +4,9 @@
     max-height: 260px;
   }
 }
+
+:root {
+  .custom-block {
+    margin: 24px 0;
+  }
+}
