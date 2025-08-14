@@ -51,6 +51,7 @@ export default defineConfig({
     },
     outline: {
       label: "페이지 내용",
+      level: [2, 3],
     },
     docFooter: {
       prev: "이전 페이지",
