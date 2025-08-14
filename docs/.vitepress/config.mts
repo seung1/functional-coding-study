@@ -25,6 +25,29 @@ export default defineConfig({
     },
     search: {
       provider: "local",
+      options: {
+        translations: {
+          button: {
+            buttonText: "검색",
+            buttonAriaLabel: "검색",
+          },
+          modal: {
+            backButtonTitle: "뒤로가기",
+            displayDetails: "더보기",
+            noResultsText: "검색 결과를 찾지 못했어요.",
+            resetButtonTitle: "모두 지우기",
+            footer: {
+              closeKeyAriaLabel: "닫기",
+              closeText: "닫기",
+              navigateDownKeyAriaLabel: "아래로",
+              navigateText: "이동",
+              navigateUpKeyAriaLabel: "위로",
+              selectKeyAriaLabel: "선택",
+              selectText: "선택",
+            },
+          },
+        },
+      },
     },
     outline: {
       label: "페이지 내용",
@@ -53,7 +76,7 @@ export default defineConfig({
         text: "Part 1: 액션과 계산, 데이터",
         collapsed: false,
         items: [
-          { text: "03. 액션과 계산, 데이터의 차이를 알기" },
+          { text: "03. 액션과 계산, 데이터의 차이를 알기", link: "/3" },
           { text: "04. 액션에서 계산 빼내기" },
           { text: "05. 더 좋은 액션 만들기" },
           {
