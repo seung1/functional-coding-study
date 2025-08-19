@@ -13,6 +13,11 @@
   .custom-block-title {
     font-size: 1rem;
     font-weight: 800;
+  }
+  .tip .custom-block-title {
     color: var(--vp-c-brand);
+  }
+  strong {
+    font-weight: 700;
   }
 }
