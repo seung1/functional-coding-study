@@ -78,7 +78,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: "03. 액션과 계산, 데이터의 차이를 알기", link: "/3" },
-          { text: "04. 액션에서 계산 빼내기" },
+          { text: "04. 액션에서 계산 빼내기", link: "/4" },
           { text: "05. 더 좋은 액션 만들기" },
           {
             text: "06. 변경 가능한 데이터 구조를 가진 언어에서 불변성 유지하기",
