@@ -17,6 +17,13 @@
   .tip .custom-block-title {
     color: var(--vp-c-brand);
   }
+  /* 스터디 날짜 스타일 */
+  .study-date {
+    display: block;
+    text-align: right;
+    font-weight: 600;
+    opacity: 0.5;
+  }
   strong {
     font-weight: 700;
   }
