@@ -9,6 +9,11 @@
   .custom-block {
     margin: 36px 0;
     font-weight: 600;
+
+    /* li이면서 첫번재 리스트가 아닌경우, margin-left 추가 */
+    li:not(:first-child) {
+      margin-top: 4px;
+    }
   }
   .custom-block-title {
     font-size: 1rem;
