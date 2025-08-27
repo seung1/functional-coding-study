@@ -91,7 +91,7 @@ export default defineConfig({
             text: "07. 신뢰할 수 없는 코드를 쓰면서 불변성 지키기",
             link: "/7",
           },
-          { text: "08. 계층형 설계 I" },
+          { text: "08. 계층형 설계 I", link: "/8" },
           { text: "09. 계층형 설계 II" },
         ],
       },
