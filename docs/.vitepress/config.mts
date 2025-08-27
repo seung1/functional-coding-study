@@ -59,6 +59,9 @@ export default defineConfig({
     },
     lastUpdated: {
       text: "마지막 업데이트",
+      formatOptions: {
+        dateStyle: "full",
+      },
     },
 
     sidebar: [
