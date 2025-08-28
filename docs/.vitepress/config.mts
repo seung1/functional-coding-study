@@ -92,7 +92,7 @@ export default defineConfig({
             link: "/7",
           },
           { text: "08. 계층형 설계 I", link: "/8" },
-          { text: "09. 계층형 설계 II" },
+          { text: "09. 계층형 설계 II", link: "/9" },
         ],
       },
       {
