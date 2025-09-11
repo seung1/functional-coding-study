@@ -100,7 +100,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: "10. 일급 함수 I", link: "/10" },
-          { text: "11. 일급 함수 II" },
+          { text: "11. 일급 함수 II", link: "/11" },
           { text: "12. 함수형 반복" },
           { text: "13. 함수형 도구 체이닝" },
           { text: "14. 중첩된 데이터에 함수형 도구 사용하기" },
