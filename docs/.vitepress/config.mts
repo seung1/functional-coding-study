@@ -99,7 +99,7 @@ export default defineConfig({
         text: "Part 2: 일급 추상",
         collapsed: false,
         items: [
-          { text: "10. 일급 함수 I" },
+          { text: "10. 일급 함수 I", link: "/10" },
           { text: "11. 일급 함수 II" },
           { text: "12. 함수형 반복" },
           { text: "13. 함수형 도구 체이닝" },
