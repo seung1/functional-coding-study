@@ -14,6 +14,10 @@
     li:not(:first-child) {
       margin-top: 4px;
     }
+
+    p:first-child {
+      margin-bottom: 16px;
+    }
   }
   .custom-block-title {
     font-size: 1rem;
